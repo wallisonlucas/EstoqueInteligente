@@ -1,0 +1,9 @@
+.bg_dashboard{
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #391C00, #EB7901);
+}
+.bg_menu_app_bar{
+    -fx-background-color: transparent;
+}
+.dashboard_app{
+    -fx-effect: dropShadow(gaussian, rgba(0,0,0, 0.3), 20, 0, 0, 10);
+}
