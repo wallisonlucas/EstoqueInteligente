@@ -1,9 +1,40 @@
 .bg_dashboard{
-    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #391C00, #EB7901);
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #241703, #F09A11);
 }
-.bg_menu_app_bar{
+.menu_app_bar{
     -fx-background-color: transparent;
 }
-.dashboard_app{
+.menu_app_bar .menu:hover,
+.menu_app_bar .menu:showing
+{
+    -fx-background-color: #F09A11;
+    -fx-background-radius: 10;
+}
+.menu_app_bar .menu .menu-item:hover{
+    -fx-background-color: #F09A11;
+}
+.dashboard_app_bar{
     -fx-effect: dropShadow(gaussian, rgba(0,0,0, 0.3), 20, 0, 0, 10);
+}
+.container_styler{
+    -fx-background-color: rgba(179, 189, 200, 0.3);
+    -fx-background-radius: 15;
+}
+.dashboard_menu_item:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+.dashboard_menu_item_first{
+    -fx-background-color: #D3870F;
+    -fx-background-radius: 15 15 0 0;
+}
+.dashboard_menu_item_first:hover{
+    -fx-background-color: #99620B;
+}
+.dashboard_menu_item_border{
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: rgb(255, 255, 255, 0.3);
+}
+.dashboard_menu_item_last{
+    -fx-background-color: rgba(179, 189, 200, 0.4);
+    -fx-background-radius: 0 0 15 15;
 }
