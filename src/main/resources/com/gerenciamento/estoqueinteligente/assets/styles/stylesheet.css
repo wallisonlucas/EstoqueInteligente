@@ -1,40 +1,86 @@
 .bg_dashboard{
-    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #241703, #F09A11);
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #300D4B, #AA14FA);
 }
+.container_styler{
+    -fx-background-color: rgba(179, 189, 200, 0.3);
+    -fx-background-radius: 15;
+}
+.shadow{
+    -fx-effect: dropShadow(gaussian, #170d20, 20, 0, 5, 10)2
+}
+
+/**** APP BAR ****/
 .menu_app_bar{
     -fx-background-color: transparent;
 }
 .menu_app_bar .menu:hover,
 .menu_app_bar .menu:showing
 {
-    -fx-background-color: #F09A11;
+    -fx-background-color: #8D26DD;
     -fx-background-radius: 10;
 }
+.menu_app_bar .menu .menu-item:focused,
 .menu_app_bar .menu .menu-item:hover{
-    -fx-background-color: #F09A11;
+    -fx-background-color: #8D26DD;
 }
+
 .dashboard_app_bar{
     -fx-effect: dropShadow(gaussian, rgba(0,0,0, 0.3), 20, 0, 0, 10);
 }
-.container_styler{
-    -fx-background-color: rgba(179, 189, 200, 0.3);
-    -fx-background-radius: 15;
-}
+
+
+/**** SIDE BAR ****/
 .dashboard_menu_item:hover{
     -fx-background-color: rgba(0, 0, 0, 0.2);
 }
 .dashboard_menu_item_first{
-    -fx-background-color: #D3870F;
+    -fx-background-color: #8D26DD;
     -fx-background-radius: 15 15 0 0;
 }
 .dashboard_menu_item_first:hover{
-    -fx-background-color: #99620B;
+    -fx-background-color: #681CA2;
 }
 .dashboard_menu_item_border{
     -fx-border-width: 0 0 2 0;
-    -fx-border-color: rgb(255, 255, 255, 0.3);
+    -fx-border-color: rgba(44, 36, 36, 0.3);
 }
 .dashboard_menu_item_last{
     -fx-background-color: rgba(179, 189, 200, 0.4);
     -fx-background-radius: 0 0 15 15;
+}
+
+/**** GRÁFICOS ****/
+.line_chart .chart-plot-background{
+    -fx-background-color: transparent;
+}
+.line_chart .default-color0{
+    -fx-stroke: #311D46;
+    -fx-background-color: #311D46;
+}
+.line_chart .default-color1{
+    -fx-stroke: #AC68F5;
+    -fx-background-color: #AC68F5;
+}
+.line_chart .default-color2{
+    -fx-stroke: #5b3b7e;
+    -fx-background-color: #5b3b7e;
+}
+.pie_chart .text{
+    -fx-fill: #ffffff;
+}
+
+/**** TABELAS ****/
+.table_view{
+    -fx-base: #58347E;
+    -fx-accent: #8D26DD;
+    -fx-focus-color: #8D26DD;
+}
+.table_view .cell{
+    -fx-cell-size: 30;
+    -fx-padding: 5;
+    -fx-font-size: 14;
+}
+.table_view .label{
+    -fx-font-size: 16;
+    -fx-padding: 8;
 }
