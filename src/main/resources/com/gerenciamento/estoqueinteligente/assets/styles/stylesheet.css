@@ -71,7 +71,7 @@
 
 /**** TABELAS ****/
 .table_view{
-    -fx-base: #5b3b7e;
+    -fx-base: #472969;
     -fx-accent: #8D26DD;
     -fx-focus-color: #8D26DD;
 }
@@ -83,4 +83,10 @@
 .table_view .label{
     -fx-font-size: 16;
     -fx-padding: 8;
+}
+
+/**** FORMULÁRIOS ****/
+.forms{
+    -fx-accent: #8D26DD;
+    -fx-focus-color: #8D26DD;
 }
