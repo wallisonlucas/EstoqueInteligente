@@ -15,7 +15,7 @@
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gerenciamento.estoqueinteligente.infra.javafx.controller.LoginController">
    <children>
-      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #EB7901;" HBox.hgrow="ALWAYS">
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #AA14FA;" HBox.hgrow="ALWAYS">
          <children>
             <Label text="ESTOQUE INTELIGENTE" textFill="WHITE">
                <font>
@@ -29,21 +29,21 @@
                </graphic>
             </Label>
             <Pane layoutX="10.0" layoutY="260.0" prefHeight="30.0" prefWidth="200.0" />
-            <Label layoutX="60.0" layoutY="195.0" text="Sistema de Gestão de Estoque" textFill="#dae5e8">
+            <Label layoutX="60.0" layoutY="195.0" text="Sistema de Gerenciamento de Estoque" textFill="#dae5e8">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
          </children>
       </VBox>
-      <AnchorPane prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: #DAE5E8;" HBox.hgrow="ALWAYS">
+      <AnchorPane prefHeight="200.0" prefWidth="450.0" style="-fx-background-color: rgba(179, 189, 200, 0.4);" HBox.hgrow="ALWAYS">
          <children>
-            <Label alignment="CENTER" layoutY="115.0" text="LOGIN" textFill="#381c00" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <Label alignment="CENTER" layoutY="115.0" text="LOGIN" textFill="#300d4b" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                <font>
                   <Font size="45.0" />
                </font>
             </Label>
-            <FontIcon iconColor="#381c00" iconLiteral="mdi2a-account" iconSize="30" layoutX="60.0" layoutY="265.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="360.0" />
+            <FontIcon iconColor="#300d4b" iconLiteral="mdi2a-account" iconSize="30" layoutX="60.0" layoutY="265.0" text="󰀄" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="360.0" />
             <TextField fx:id="textFieldEmail" layoutX="95.0" layoutY="231.0" promptText="Email" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="60.0">
                <font>
                   <Font size="18.0" />
@@ -54,13 +54,16 @@
                   <Font size="18.0" />
                </font>
             </TextField>
-            <FontIcon iconColor="#381c00" iconLiteral="mdi2f-form-textbox-password" iconSize="30" layoutX="60.0" layoutY="325.0" text="󰟵" AnchorPane.leftAnchor="60.0" />
-            <Button layoutX="60.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleLoginButton" text="ENTRAR" textFill="#381c00" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
+            <FontIcon iconColor="#300d4b" iconLiteral="mdi2f-form-textbox-password" iconSize="30" layoutX="60.0" layoutY="325.0" text="󰟵" AnchorPane.leftAnchor="60.0" />
+            <Button layoutX="60.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleLoginButton" text="ENTRAR" textFill="#300d4b" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
                <font>
                   <Font size="18.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Button>
-            <Label alignment="CENTER" layoutX="211.0" layoutY="556.0" onMouseClicked="#handleForgotPassword" text="Esqueceu a senha? Clique aqui." textFill="#381c00" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <Label alignment="CENTER" layoutX="211.0" layoutY="556.0" onMouseClicked="#handleForgotPassword" text="Esqueceu a senha? Clique aqui." textFill="#300d4b" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                <font>
                   <Font size="16.0" />
                </font>
