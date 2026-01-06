@@ -1,4 +1,4 @@
-package com.gerenciamento.estoqueinteligente.infra.javafx.controller;
+package com.gerenciamento.estoqueinteligente.infrastructure.javafx.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
